@@ -16,7 +16,19 @@ An **Operating System (OS)** is system software that acts as an intermediary bet
 
 ## 🐧 What is Linux?
 
-**Linux** is a free and open-source Unix-like operating system kernel originally developed by **Linus Torvalds** in 1991. Today, Linux powers everything from smartphones to servers, supercomputers, IoT devices, and more.
+**Linux**  is a relatively modern operating system created in 1991 by **Linus Torvalds**, a Finnish computer
+science student from Helsinki. Originally released as a free and open source platform prohibiting
+commercial redistribution, Linux eventually adopted the **GNU General Public Licensing (GPL)**
+model in 1992. This move played a significant role in its wide adoption by the developer community
+and commercial enterprises alike. It is important to note that the Free Software Foundation
+community distinctly refers to Linux operating systems (or distributions) as **GNU/Linux** to
+emphasize the importance of GNU for free software.
+
+A Linux operating system is typically referred to as a **distribution**. A Linux distribution, or **distro**, is
+the installation bundle (usually an ISO image) of an operating system that has a collection of tools,
+libraries, and additional software packages installed on top of the **Linux kernel**. A **kernel** is the core
+interface between a computer’s hardware and its processes, controlling the communication between
+the two and managing the underlying resources as efficiently as possible.
 
 ### Key Features of Linux:
 - Open Source & Free
@@ -50,6 +62,21 @@ An **Operating System (OS)** is system software that acts as an intermediary bet
 
 ---
 
+## 🐧 Architecture of Linux OS
+
+![Linux Architecture](../images/linux-architecture.webp)
+
+> 📚 **Source:** [Scaler Topics – Linux Architecture](https://www.scaler.com/topics/linux-architecture/)
+
+---
+
+## 🔧 Linux Kernel – High-Level Diagram
+
+![Linux Kernel Diagram](../images/kernel.png)
+
+---
+
+
 ## 🏗️ Popular Linux Distributions (Distros)
 
 Linux isn't a single OS – it's a family of **distributions** built around the Linux kernel. Some of the most common are:
@@ -60,6 +87,9 @@ Linux isn't a single OS – it's a family of **distributions** built around the 
 - **CentOS / RHEL** – Enterprise-grade
 - **Arch Linux** – Rolling release, DIY philosophy
 - **Kali Linux** – Security-focused
+
+One of the key differences among Linux distributions is the **package management system** they use
+and the related **Linux package format**.
 
 ---
 
